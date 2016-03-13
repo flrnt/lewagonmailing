@@ -6,8 +6,7 @@ body {
   color: #333;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  justify-content: center; }
 
 .mail {
   background-color: #fff;
