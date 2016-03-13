@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/images/cover_18.jpg");
+    background-image: url(https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/promos/batch_18/batch_18_mosaic.jpg);
     background-position: center center;
     background-size: 70%;
     height: 300px;
