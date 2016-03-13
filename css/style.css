@@ -1,0 +1,53 @@
+html {
+  height: 100%; }
+
+body {
+  background-color: #E9E9E9;
+  color: #333;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.mail {
+  background-color: #fff;
+  width: 100%;
+  max-width: 700px;
+  height: 1000px;
+  padding: 20px;
+  border-radius: 0.2em;
+  box-shadow: 1px 1px 5px #666; }
+  .mail .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; }
+    .mail .header .logo img {
+      border-radius: 50%;
+      height: 40px;
+      width: 40px; }
+  .mail .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/images/cover_18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: #fff;
+    text-align: center; }
+    .mail .banner .title {
+      background: rgba(51, 51, 51, 0.8);
+      padding: 10px 30px;
+      border-radius: 0.2em; }
+      .mail .banner .title h1 {
+        font-size: 3.5em;
+        margin: 0; }
+      .mail .banner .title p {
+        font-size: 1.1em;
+        color: limegreen;
+        margin: 0; }
+  .mail .footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around; }
